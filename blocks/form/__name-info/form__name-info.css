@@ -1,0 +1,20 @@
+.form__name-info {
+    margin: 54px 0 0 36px;
+    padding: 0;
+    border: none;
+    width: 358px;
+    height: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    outline: none;
+}
+
+@media screen and (max-width: 560px) {
+    .form__name-info {
+        margin: 75px 0 0 22px;
+        width: 238px;
+    }
+}

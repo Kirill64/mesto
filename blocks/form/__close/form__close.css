@@ -1,0 +1,21 @@
+.form__close {
+    position: absolute;
+    right: -48.28px;
+    top: -48.28px;
+    width: 40px;
+    height: 40px;
+    transform: rotate (-45deg);
+}
+
+.form__close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 560px) {
+    .form__close {
+        right: 0;
+        width: 26px;
+        height: 26px;
+    }
+}
