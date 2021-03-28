@@ -1,3 +1,4 @@
+
 # Проект 4
 ### 
 * О проекте
@@ -18,4 +19,8 @@
  Впервые применял javascript 
 
 **Ссылка на проект**
+<<<<<<< HEAD
 https://kirill64.github.io/mesto/
+=======
+https://kirill64.github.io/mesto/
+>>>>>>> 9025a9e888c540bca7df5d1e578a87fd62f29a16
