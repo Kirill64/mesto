@@ -1,0 +1,8 @@
+.element__title-like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px 31px 21px;
+    max-width: 246px;
+    height: 23px;
+}
