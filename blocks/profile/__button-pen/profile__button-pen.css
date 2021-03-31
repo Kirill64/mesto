@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 560px) {
     .profile__button-pen {
+        padding: 4px;
         width: 8px;
         height: 8px;
     }
