@@ -4,96 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Страница</title>
+    <title>Место</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="body">
+    <header class="header">
+        <img src="./images/logo.svg" alt="Место" class="header__logo">
+    </header>
     <div class="page">
-        <header class="header">
-            <img src="./images/logo.svg" alt="Мисто" class="header__logo">
-            <hr class="header__line">
-        </header>
-        <div class="profile">
+
+        <section class="profile">
             <img src="./images/image.png" alt="аватар" class="profile__avatar">
             <div class="profile__info">
-                <section class="profile__name-btn">
+                <div class="profile__name-btn">
                     <h1 class="profile__info-name">Жак-Ив Кусто</h1>
-                    <button class="profile__button-edit" id="profile__button-open">
+                    <button type="button" class="profile__button-edit">
                       <img src="./images/Vector.svg" alt="ручка" class="profile__button-pen">
                   </button>
-                </section>
+                </div>
 
                 <p class="profile__info-post">Исследователь океана</p>
             </div>
-            <button class="profile__button-add">
+            <button type="button" class="profile__button-add">
                 <img src="./images/plus.svg" alt="плюс" class="profile__button-plus">
             </button>
-        </div>
+        </section>
         <section class="elements">
 
             <div class="element">
                 <img src="./images/1.png" alt="храм" class="element__pic">
                 <section class="element__title-like">
-                    <h1 class="element__title">Карачаевск</h1>
-                    <button class="element__like"></button>
+                    <h2 class="element__title">Карачаевск</h2>
+                    <button type="button" class="element__like"></button>
                 </section>
             </div>
 
             <div class="element">
                 <img src="./images/2.png" alt="гора" class="element__pic">
                 <section class="element__title-like">
-                    <h1 class="element__title">Гора Эльбрус</h1>
-                    <button class="element__like"></button>
+                    <h2 class="element__title">Гора Эльбрус</h2>
+                    <button type="button" class="element__like"></button>
                 </section>
             </div>
 
             <div class="element">
                 <img src="./images/3.png" alt="домбай" class="element__pic">
                 <section class="element__title-like">
-                    <h1 class="element__title">Домбай</h1>
-                    <button class="element__like"></button>
+                    <h2 class="element__title">Домбай</h2>
+                    <button type="button" class="element__like"></button>
                 </section>
             </div>
 
             <div class="element">
                 <img src="./images/2.png" alt="гора" class="element__pic">
                 <section class="element__title-like">
-                    <h1 class="element__title">Гора Эльбрус</h1>
-                    <button class="element__like"></button>
+                    <h2 class="element__title">Гора Эльбрус</h2>
+                    <button type="button" class="element__like"></button>
                 </section>
             </div>
 
             <div class="element">
                 <img src="./images/3.png" alt="домбай" class="element__pic">
                 <section class="element__title-like">
-                    <h1 class="element__title">Домбай</h1>
-                    <button class="element__like"></button>
+                    <h2 class="element__title">Домбай</h2>
+                    <button type="button" class="element__like"></button>
                 </section>
             </div>
 
             <div class="element">
                 <img src="./images/1.png" alt="храм" class="element__pic">
                 <section class="element__title-like">
-                    <h1 class="element__title">Карачаево-Черкессия</h1>
-                    <button class="element__like"></button>
+                    <h2 class="element__title">Карачаево-Черкессия</h2>
+                    <button type="button" class="element__like"></button>
                 </section>
             </div>
 
         </section>
-        <footer class="footer">&copy;2020 Mesto Russia</footer>
+        <footer class="footer">
+            <p class="footer footer__copy"> &copy;2020 Mesto Russia</p>
+        </footer>
 
         <div class="popup">
-            <div class="popup__overlay"></div>
-            <form class="form">
-                <img src="./images/close.svg" alt="крест" class="form__close">
+
+            <div class="popup__form">
+                <button type="button" class="form__close">
+                    <img src="./images/close.svg" alt="крест" class="form__close-img" >
+                </button>
                 <h2 class="form__title">Редактировать профиль</h2>
-                <input type="text" class="form__name-info" value="Жак-Ив Кусто">
-                <hr class="form__line">
-                <input type="text" class="form__description-info" value="Исследователь океана">
-                <hr class="form__line">
-                <button type="submit" class="form__sumbit">Сохранить</button>
-            </form>
+                <form class="form">
+                    <input type="text" class="form__info form__name-info" name="name-info">
+
+                    <input type="text" class="form__info form__job-info" name="name-job">
+                    <button type="submit" class="form__sumbit">Сохранить</button>
+                </form>
+
+
+            </div>
         </div>
 
     </div>
