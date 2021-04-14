@@ -1,0 +1,16 @@
+.element__button-basket {
+    background-image: url(../../../images/Trash.svg);
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    border: none;
+    outline: none;
+    height: 19px;
+    width: 18px;
+    background-color: transparent;
+}
+
+.element__button-basket:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

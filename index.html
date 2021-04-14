@@ -31,8 +31,8 @@
             </button>
         </section>
         <section class="elements">
-
             <div class="element">
+                <button type="button" class="element__button-basket"></button>
                 <img src="./images/1.png" alt="храм" class="element__pic">
                 <section class="element__title-like">
                     <h2 class="element__title">Карачаевск</h2>
@@ -41,6 +41,7 @@
             </div>
 
             <div class="element">
+                <button type="button" class="element__button-basket"></button>
                 <img src="./images/2.png" alt="гора" class="element__pic">
                 <section class="element__title-like">
                     <h2 class="element__title">Гора Эльбрус</h2>
@@ -49,6 +50,7 @@
             </div>
 
             <div class="element">
+                <button type="button" class="element__button-basket"></button>
                 <img src="./images/3.png" alt="домбай" class="element__pic">
                 <section class="element__title-like">
                     <h2 class="element__title">Домбай</h2>
@@ -57,6 +59,7 @@
             </div>
 
             <div class="element">
+                <button type="button" class="element__button-basket"></button>
                 <img src="./images/2.png" alt="гора" class="element__pic">
                 <section class="element__title-like">
                     <h2 class="element__title">Гора Эльбрус</h2>
@@ -65,6 +68,7 @@
             </div>
 
             <div class="element">
+                <button type="button" class="element__button-basket"></button>
                 <img src="./images/3.png" alt="домбай" class="element__pic">
                 <section class="element__title-like">
                     <h2 class="element__title">Домбай</h2>
@@ -73,20 +77,33 @@
             </div>
 
             <div class="element">
+                <button type="button" class="element__button-basket"></button>
                 <img src="./images/1.png" alt="храм" class="element__pic">
                 <section class="element__title-like">
                     <h2 class="element__title">Карачаево-Черкессия</h2>
                     <button type="button" class="element__like"></button>
                 </section>
             </div>
-
         </section>
     </main>
+
+    <template class="template">
+        <div class="element">
+            <button type="button" class="element__button-basket"></button>
+            <img src="#" alt="картинка" class="element__pic">
+            <section class="element__title-like">
+                <h2 class="element__title"></h2>
+                <button type="button" class="element__like"></button>
+            </section>
+        </div>
+    </template>
+
+
     <footer class="footer">
         <p class="footer__copy"> &copy;2020 Mesto Russia</p>
     </footer>
 
-    <div class="popup">
+    <div class="popup popup_edit_form">
 
         <div class="popup__form">
             <button type="button" class="popup__close">
@@ -104,7 +121,34 @@
         </div>
     </div>
 
+    <div class="popup popup_insert_card">
 
+        <div class="popup__form popup_form_card">
+            <button type="button" class="popup__close popup_close_img">
+                    <img src="./images/close.svg" alt="крест" class="popup__close-img" >
+                </button>
+            <h2 class="popup__title">Новое место</h2>
+            <form class="form form_new_card">
+                <input type="text" class="form__info form_input_description" name="description" placeholder="Название">
+
+                <input type="text" class="form__info form_info_input_link" name="link" placeholder="Ссылка на картинку">
+                <button type="submit" class="form__sumbit">Создать</button>
+            </form>
+
+
+        </div>
+    </div>
+
+    <div class="popup popup__enlarge-img">
+        <div class="popup__inside">
+            <button type="button" class="popup__close popup_enlarge_close_img">
+            <img src="./images/close.svg" alt="крест" class="popup__close-img" >
+        </button>
+            <img src="./images/1.png" alt="Карачаевск" class="popup__image">
+            <p class="popup__name-img"></p>
+        </div>
+    </div>
+    <script src="./scripts/cards.js"></script>
     <script src="./scripts/index.js"></script>
 
 </body>
