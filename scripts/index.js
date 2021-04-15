@@ -74,10 +74,10 @@ const initialCards = [{
 
 const popupCard = document.querySelector('.popup_insert_card');
 const templateElement = document.querySelector('.template').content.querySelector('.element');
-const popupCardForm = popupCard.querySelector('form_new_card');
+const popupCardForm = popupCard.querySelector('.form_new_card');
 
-const popupCardInputName = popupCard.querySelector("input[name='description']");
-const popupCardInputLink = popupCard.querySelector("input[name='link']");
+const popupCardInputName = popupCard.querySelector('.form_input_description');
+const popupCardInputLink = popupCard.querySelector('.form_info_input_link');
 
 const popupCardButton = document.querySelector('.popup__button');
 const cardElements = document.querySelector('.elements');
